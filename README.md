@@ -43,8 +43,8 @@ return p
 ## Tests
 This library comes with a set of PHPUnit and Lua tests (see details on how to write Lua/Scribunto [unit tests][scrtest]).
 
-* [mw.smw.property.tests.lua](/Tests/Phpunit/Library/mw.smw.property.tests.lua)
-* [mw.smw.api.tests.lua](/Tests/Phpunit/Library/mw.smw.api.tests.lua)
+* [mw.smw.property.tests.lua](/tests/phpunit/Library/mw.smw.property.tests.lua)
+* [mw.smw.api.tests.lua](/tests/phpunit/Library/mw.smw.api.tests.lua)
 
 [scrtest]: https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#Test_cases
 [scrlib]: https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#Writing_Scribunto_libraries
