@@ -1,6 +1,6 @@
 <?php
 
-namespace SMW\Lua\Tests\Phpunit\Library;
+namespace SMW\Lua\Tests\Library;
 
 use SMW\Lua\ScribuntoTestBase;
 
@@ -18,14 +18,14 @@ use SMW\Lua\ScribuntoTestBase;
 class PropertyTest extends ScribuntoTestBase {
 
 	/** Lua test module */
-	protected static $moduleName = 'SMW\Lua\Tests\Phpunit\Library\PropertyTest';
+	protected static $moduleName = 'SMW\Lua\Tests\Library\PropertyTest';
 
 	/**
 	 * Scribunto_LuaEngineTestBase::getTestModules
 	 */
 	public function getTestModules() {
 		return parent::getTestModules() + array(
-			'SMW\Lua\Tests\Phpunit\Library\PropertyTest' => __DIR__ . '/' . 'mw.smw.property.tests.lua',
+			'SMW\Lua\Tests\Library\PropertyTest' => __DIR__ . '/' . 'mw.smw.property.tests.lua',
 		);
 	}
 

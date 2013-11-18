@@ -1,6 +1,6 @@
 <?php
 
-namespace SMW\Lua\Tests\Phpunit\Library;
+namespace SMW\Lua\Tests\Library;
 
 use SMW\Lua\ScribuntoTestBase;
 
@@ -18,14 +18,14 @@ use SMW\Lua\ScribuntoTestBase;
 class ApiTest extends ScribuntoTestBase {
 
 	/** Lua test module */
-	protected static $moduleName = 'SMW\Lua\Tests\Phpunit\Library\ApiTest';
+	protected static $moduleName = 'SMW\Lua\Tests\Library\ApiTest';
 
 	/**
 	 * Scribunto_LuaEngineTestBase::getTestModules
 	 */
 	public function getTestModules() {
 		return parent::getTestModules() + array(
-			'SMW\Lua\Tests\Phpunit\Library\ApiTest' => __DIR__ . '/' . 'mw.smw.api.tests.lua',
+			'SMW\Lua\Tests\Library\ApiTest' => __DIR__ . '/' . 'mw.smw.api.tests.lua',
 		);
 	}
 
