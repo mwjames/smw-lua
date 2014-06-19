@@ -1,6 +1,6 @@
 # SemanticMediaWiki Lua
 
-Library containing an integration framework that provides [Lua (Scripunto)][scrlib] libraries, allowing an end-user to write modules and expose additional functionality using the <code>{{#invoke: ... }}</code> parser function.
+Library containing an integration framework that provides [Lua (Scribunto)][scrlib] libraries, allowing an end-user to write modules and expose additional functionality using the <code>{{#invoke: ... }}</code> parser function.
 
 ## Libraries
 
